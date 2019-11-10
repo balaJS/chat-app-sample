@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    title #{title}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    link(rel="icon" type="image/png" href="http://127.0.0.1:8082/chat-fav-icon.png")
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    link(rel="stylesheet" href="http://127.0.0.1:8082/css.css")
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js")
+    script(src=`http://127.0.0.1:8081/socket.io/socket.io.js` defer)
+    script(src=`http://127.0.0.1:8082/javascripts/script.js` defer)
+  </head>
+  <body>
+    div.container-fluid
+      ul#messages
+      div.msg-box(style="position: absolute; bottom: 10px; width: 95%;")
+        form
+          input#msg-input(style="width: 90%" autocomplete="off")
+          button|Send
+  </body>
+</html>

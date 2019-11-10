@@ -1,0 +1,19 @@
+body {
+  background-color: gray;
+}
+li {
+  list-style-type: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+li.normal {
+  background-color: navajowhite;
+  text-align: center;
+}
+li.current_user {
+  background-color: mediumseagreen;
+}
+
+li.other_user {
+  background-color: lightsteelblue;
+}
